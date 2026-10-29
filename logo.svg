@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="30 35 440 440" role="img" aria-labelledby="logo-title logo-desc">
+  <title id="logo-title">Monograma AF</title>
+  <desc id="logo-desc">Letra A com traço central inclinado, envolvida por anéis circulares interrompidos e pontos de conexão.</desc>
+  <g stroke="#6a1f2b" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="250" cy="255" r="190" fill="none" stroke-width="4" stroke-dasharray="280 40 100 60 300 40 120 60" stroke-dashoffset="30" />
+    <circle cx="250" cy="255" r="175" fill="none" stroke-width="2" stroke-dasharray="0 80 150 200 80 300" stroke-dashoffset="0" />
+    <circle cx="250" cy="255" r="205" fill="none" stroke-width="2" stroke-dasharray="0 300 120 200 60 200" stroke-dashoffset="150" />
+    <g stroke-width="6">
+      <line x1="150" y1="380" x2="250" y2="110" />
+      <line x1="250" y1="110" x2="350" y2="380" />
+      <line x1="200" y1="245" x2="300" y2="315" />
+    </g>
+    <g fill="#6a1f2b" stroke="none">
+      <circle cx="250" cy="110" r="8" />
+      <circle cx="150" cy="380" r="8" />
+      <circle cx="350" cy="380" r="8" />
+      <circle cx="200" cy="245" r="8" />
+      <circle cx="300" cy="315" r="8" />
+    </g>
+  </g>
+</svg>

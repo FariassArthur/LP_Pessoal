@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+
+<title>Arthur Farias — Programador e analista de redes</title>
+<meta name="description" content="Portfólio de Arthur Farias. RackLab e Ecossistema ISI: sistemas para operar, documentar e monitorar redes. TypeScript, React, React Native, PostgreSQL e infraestrutura Linux." />
+<meta name="author" content="Arthur Farias" />
+<meta name="theme-color" content="#181311" id="theme-color" />
+<meta name="referrer" content="strict-origin-when-cross-origin" />
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; script-src 'self' 'unsafe-inline'; img-src 'self' data:; base-uri 'self'; form-action 'self' mailto:" />
+
+<link rel="canonical" href="https://arthurfarias.dev/" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="sitemap" href="sitemap.xml" type="application/xml" />
+
+<meta property="og:type" content="website" />
+<meta property="og:locale" content="pt_BR" />
+<meta property="og:site_name" content="Arthur Farias" />
+<meta property="og:title" content="Arthur Farias — Programador e analista de redes" />
+<meta property="og:description" content="RackLab e Ecossistema ISI. Sistemas para operar, documentar e monitorar redes." />
+<meta property="og:url" content="https://arthurfarias.dev/" />
+<meta property="og:image" content="https://arthurfarias.dev/og-image.png" />
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="Monograma AF e portfólio de Arthur Farias" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Arthur Farias — Programador e analista de redes" />
+<meta name="twitter:description" content="RackLab e Ecossistema ISI. Sistemas para operar, documentar e monitorar redes." />
+<meta name="twitter:image" content="https://arthurfarias.dev/og-image.png" />
+<meta name="twitter:image:alt" content="Monograma AF e portfólio de Arthur Farias" />
+
+<script>
+(function () {
+  document.documentElement.classList.add("js");
+
+  try {
+    var saved = localStorage.getItem("theme");
+    var prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+    var theme = saved || (prefersDark ? "dark" : "light");
+    document.documentElement.setAttribute("data-theme", theme);
+    var meta = document.getElementById("theme-color");
+    if (meta) meta.setAttribute("content", theme === "dark" ? "#181311" : "#e7e1d4");
+  } catch (e) {
+    document.documentElement.setAttribute("data-theme", "dark");
+  }
+})();
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Spectral:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Spectral+SC:wght@500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+
+<noscript>
+  <style>
+    .theme-toggle { display: none; }
+    @media (max-width: 720px) {
+      .masthead-inner { flex-wrap: wrap; padding-top: 10px; padding-bottom: 10px; }
+      .nav { display: flex; order: 3; width: 100%; flex-wrap: wrap; gap: 16px; padding: 6px 0 2px; }
+      .nav a { padding: 6px 0; }
+      .menu-btn { display: none; }
+    }
+  </style>
+</noscript>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Arthur Farias",
+  "jobTitle": "Programador e Analista de Redes",
+  "description": "Desenvolvedor full-stack e analista de redes com foco em infraestrutura, automação e segurança de servidores.",
+  "url": "https://arthurfarias.dev/",
+  "email": "mailto:arthurfarias@email.isolutionsitz.com.br",
+  "knowsAbout": [
+    "TypeScript", "React", "React Native", "Tailwind CSS",
+    "Node.js", "PostgreSQL", "MongoDB", "Linux", "Docker",
+    "Redes de computadores", "Segurança de servidores"
+  ],
+  "sameAs": [
+    "https://github.com/arthurfarias"
+  ]
+}
+</script>
+</head>
+<body>
+
+<a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+<header class="masthead">
+  <div class="masthead-inner">
+    <a class="wordmark" href="#top" aria-label="Arthur Farias, voltar ao início">Arthur Farias</a>
+
+    <nav class="nav" id="primary-nav" aria-label="Navegação principal">
+      <a href="#sistemas">Sistemas</a>
+      <a href="#competencias">Competências</a>
+      <a href="#perfil">Perfil</a>
+      <a href="#contato">Contato</a>
+    </nav>
+
+    <div class="masthead-tools">
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-pressed="false" aria-label="Mudar para tema escuro">
+        <span class="theme-toggle-track" aria-hidden="true"><span class="theme-toggle-thumb"></span></span>
+        <span class="theme-toggle-label" id="theme-toggle-label" aria-hidden="true">claro</span>
+      </button>
+
+      <button class="menu-btn" id="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Abrir menu">
+        <span aria-hidden="true">Menu</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="conteudo" tabindex="-1">
+
+  <section class="hero" id="top">
+    <div class="hero-copy">
+      <h1>
+        <span class="h1-line">Do rack</span>
+        <span class="h1-line h1-line-2">ao dashboard<span class="period">.</span></span>
+      </h1>
+      <p class="hero-role">Arthur Farias. Programador e analista de redes.</p>
+      <p class="lede">Construo sistemas para operar, documentar e monitorar redes, de topologias e racks a aplicações web e mobile.</p>
+      <div class="hero-actions">
+        <a class="link-solid" href="#sistemas">Ver sistemas em produção</a>
+        <a class="link-quiet" href="#contato">Falar comigo</a>
+      </div>
+    </div>
+
+    <div class="hero-mark">
+      <svg class="monogram" viewBox="30 35 440 440" role="img" aria-labelledby="logo-title logo-desc">
+        <title id="logo-title">Monograma AF</title>
+        <desc id="logo-desc">Letra A com traço central inclinado, envolvida por anéis circulares interrompidos e pontos de conexão.</desc>
+        <g stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="250" cy="255" r="190" fill="none" stroke-width="4" stroke-dasharray="280 40 100 60 300 40 120 60" stroke-dashoffset="30" />
+          <circle cx="250" cy="255" r="175" fill="none" stroke-width="2" stroke-dasharray="0 80 150 200 80 300" stroke-dashoffset="0" />
+          <circle cx="250" cy="255" r="205" fill="none" stroke-width="2" stroke-dasharray="0 300 120 200 60 200" stroke-dashoffset="150" />
+          <g stroke-width="6">
+            <line x1="150" y1="380" x2="250" y2="110" />
+            <line x1="250" y1="110" x2="350" y2="380" />
+            <line x1="200" y1="245" x2="300" y2="315" />
+          </g>
+          <g fill="currentColor" stroke="none">
+            <circle cx="250" cy="110" r="8" />
+            <circle cx="150" cy="380" r="8" />
+            <circle cx="350" cy="380" r="8" />
+            <circle cx="200" cy="245" r="8" />
+            <circle cx="300" cy="315" r="8" />
+          </g>
+        </g>
+      </svg>
+    </div>
+  </section>
+
+  <dl class="hero-facts">
+    <div>
+      <dt>sistemas em produção</dt>
+      <dd>2</dd>
+    </div>
+    <div>
+      <dt>módulos integrados</dt>
+      <dd>7</dd>
+    </div>
+    <div>
+      <dt>base</dt>
+      <dd>Linux, Docker, PostgreSQL</dd>
+    </div>
+    <div>
+      <dt>operação</dt>
+      <dd>NOC, campo, frota e estoque</dd>
+    </div>
+  </dl>
+
+  <section class="section" id="sistemas">
+    <div class="section-grid">
+      <div class="section-meta">
+        <h2>Sistemas em produção</h2>
+        <p>Dois produtos em uso real, construídos do zero e mantidos por mim.</p>
+      </div>
+
+      <div class="section-body">
+        <article class="system">
+          <div class="system-main">
+            <div class="system-head">
+              <div class="system-title">
+                <div class="system-kicker">
+                  <span class="system-index">sistema i</span>
+                  <span class="stamp">em produção</span>
+                </div>
+                <h3>RackLab</h3>
+              </div>
+              <a class="system-link" href="https://racklab.isolutionsitz.com.br" target="_blank" rel="noopener noreferrer">Abrir sistema</a>
+            </div>
+            <p class="system-desc">Aplicativo desktop para montar, documentar e simular redes. Topologia física em racks e virtual em grafo, simulador L2/L3, IPAM, CLI por fabricante e importação de EVE-NG, GNS3 e NetBox.</p>
+            <dl class="specs">
+              <div><dt>função</dt><dd>Aplicativo desktop de topologia e simulação de redes</dd></div>
+              <div><dt>stack</dt><dd>TypeScript, React, Tailwind CSS, Electron, Vite, IndexedDB</dd></div>
+              <div><dt>destaques</dt><dd>Racks com unidades U, cabeamento por porta, OSPF e BGP simplificados, IPAM, relatórios e licenciamento offline</dd></div>
+            </dl>
+          </div>
+          <figure class="system-figure reveal-figure">
+            <div class="plate-head">
+              <span>prancha 02</span>
+              <span>patch panel</span>
+            </div>
+            <svg viewBox="0 0 320 220" role="img" aria-label="Patch panel com portas e cabos">
+              <rect class="fig-frame" x="24" y="28" width="272" height="70" rx="2" />
+              <text class="fig-label" x="40" y="50">PATCH A</text>
+              <g class="fig-ports">
+                <rect x="40" y="66" width="12" height="9" /><rect x="60" y="66" width="12" height="9" />
+                <rect x="80" y="66" width="12" height="9" /><rect x="100" y="66" width="12" height="9" />
+                <rect x="120" y="66" width="12" height="9" /><rect x="140" y="66" width="12" height="9" />
+                <rect x="160" y="66" width="12" height="9" /><rect x="180" y="66" width="12" height="9" />
+                <rect x="200" y="66" width="12" height="9" /><rect x="220" y="66" width="12" height="9" />
+                <rect x="240" y="66" width="12" height="9" /><rect x="260" y="66" width="12" height="9" />
+              </g>
+              <rect class="fig-frame" x="24" y="122" width="272" height="70" rx="2" />
+              <text class="fig-label" x="40" y="144">PATCH B</text>
+              <g class="fig-ports">
+                <rect x="40" y="160" width="12" height="9" /><rect x="60" y="160" width="12" height="9" />
+                <rect x="80" y="160" width="12" height="9" /><rect x="100" y="160" width="12" height="9" />
+                <rect x="120" y="160" width="12" height="9" /><rect x="140" y="160" width="12" height="9" />
+                <rect x="160" y="160" width="12" height="9" /><rect x="180" y="160" width="12" height="9" />
+                <rect x="200" y="160" width="12" height="9" /><rect x="220" y="160" width="12" height="9" />
+                <rect x="240" y="160" width="12" height="9" /><rect x="260" y="160" width="12" height="9" />
+              </g>
+              <g class="fig-cables" aria-hidden="true">
+                <path d="M46 75 C 46 108, 140 92, 140 160" />
+                <path d="M106 75 C 106 112, 200 100, 200 160" />
+                <path d="M166 75 C 166 116, 260 100, 260 160" />
+              </g>
+            </svg>
+            <figcaption>racklab / patch e cabeamento</figcaption>
+          </figure>
+        </article>
+
+        <article class="system">
+          <div class="system-main">
+            <div class="system-head">
+              <div class="system-title">
+                <div class="system-kicker">
+                  <span class="system-index">sistema ii</span>
+                  <span class="stamp">em produção</span>
+                </div>
+                <h3>Ecossistema ISI</h3>
+              </div>
+              <a class="system-link" href="https://isiecosystem.isolutionsitz.com.br" target="_blank" rel="noopener noreferrer">Abrir sistema</a>
+            </div>
+            <p class="system-desc">Sete módulos integrados para a operação de provedores e equipes de campo. NOC, ordens de serviço, frota, estoque, mapa FTTH, chat e um gateway central entre todos os serviços.</p>
+            <dl class="specs">
+              <div><dt>função</dt><dd>Ecossistema de operação de redes, campo, frota e estoque</dd></div>
+              <div><dt>stack</dt><dd>TypeScript, Node.js, React, React Native, PostgreSQL, Prisma, Tailwind, Socket.IO</dd></div>
+              <div><dt>módulos</dt><dd>IsiHub, IsiCore, IsiFleet, IsiBox, IsiMap, IsiChat e IsiApi</dd></div>
+            </dl>
+          </div>
+          <figure class="system-figure reveal-figure">
+            <div class="plate-head">
+              <span>prancha 03</span>
+              <span>topologia</span>
+            </div>
+            <svg viewBox="0 0 320 220" role="img" aria-label="Módulos do ecossistema conectados ao gateway central">
+              <rect class="fig-frame" x="24" y="24" width="110" height="46" rx="2" />
+              <text class="fig-label" x="40" y="52">ISIHUB</text>
+              <rect class="fig-frame" x="186" y="24" width="110" height="46" rx="2" />
+              <text class="fig-label" x="202" y="52">ISICORE</text>
+              <rect class="fig-frame" x="24" y="150" width="110" height="46" rx="2" />
+              <text class="fig-label" x="40" y="178">ISIFLEET</text>
+              <rect class="fig-frame" x="186" y="150" width="110" height="46" rx="2" />
+              <text class="fig-label" x="202" y="178">ISIMAP</text>
+              <rect class="fig-frame fig-frame-accent" x="110" y="88" width="100" height="44" rx="2" />
+              <text class="fig-label fig-label-accent" x="132" y="115">ISIAPI</text>
+              <g class="fig-lines" aria-hidden="true">
+                <path d="M79 70 L 130 88" />
+                <path d="M241 70 L 190 88" />
+                <path d="M79 150 L 130 132" />
+                <path d="M241 150 L 190 132" />
+              </g>
+            </svg>
+            <figcaption>ecossistema isi / gateway central</figcaption>
+          </figure>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="competencias">
+    <div class="section-grid">
+      <div class="section-meta">
+        <h2>Competências</h2>
+        <p>O que uso para construir e manter esses sistemas.</p>
+      </div>
+      <div class="section-body">
+        <dl class="skills">
+          <div><dt>Frontend</dt><dd>TypeScript, React, Tailwind CSS, Vite, React Router</dd></div>
+          <div><dt>Mobile</dt><dd>React Native, Expo, Expo Router</dd></div>
+          <div><dt>Backend</dt><dd>Node.js, Express, Prisma, Socket.IO</dd></div>
+          <div><dt>Dados</dt><dd>PostgreSQL, MongoDB, SQLite, Redis</dd></div>
+          <div><dt>Infraestrutura</dt><dd>Linux, Docker, Nginx, Ansible</dd></div>
+          <div><dt>Segurança</dt><dd>Hardening, firewall, SSH, TLS e auditoria, em evolução</dd></div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="perfil">
+    <div class="section-grid">
+      <div class="section-meta">
+        <h2>Perfil</h2>
+        <p>Como trabalho e onde estou agora.</p>
+      </div>
+      <div class="section-body">
+        <div class="profile">
+          <p>Programador e analista de redes. Trabalho com infraestrutura, automação e desenvolvimento full-stack, criando sistemas que tornam redes e operações mais confiáveis e observáveis.</p>
+          <p>Combino conhecimento de redes (TCP/IP, SNMP, roteamento, NOC) com desenvolvimento moderno (TypeScript, React, Node) para entregar soluções ponta a ponta, do hardware ao dashboard.</p>
+          <p>Atualmente me aprofundo em <strong>segurança de servidores</strong>: hardening, firewalls, gestão de acesso e auditoria.</p>
+          <dl class="profile-facts">
+            <div><dt>atuação</dt><dd>Infraestrutura, automação e desenvolvimento full-stack</dd></div>
+            <div><dt>foco atual</dt><dd>Segurança de servidores</dd></div>
+            <div><dt>operação</dt><dd>Redes, NOC, campo, frota e estoque</dd></div>
+          </dl>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section contact" id="contato">
+    <div class="section-grid">
+      <div class="section-meta">
+        <h2>Contato</h2>
+        <p>Disponível para projetos, consultoria e oportunidades.</p>
+      </div>
+      <div class="section-body">
+        <a class="email-link" href="mailto:arthurfarias@email.isolutionsitz.com.br?subject=Contato%20pelo%20portf%C3%B3lio">arthurfarias@<wbr>email.isolutionsitz<wbr>.com.br</a>
+        <div class="contact-links">
+          <a href="https://github.com/arthurfarias" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <span>Brasil</span>
+          <span>Resposta em até 2 dias úteis</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <span>© <span id="year">2026</span> Arthur Farias</span>
+    <span>HTML e CSS, sem frameworks</span>
+    <a class="to-top" href="#top">Voltar ao topo</a>
+  </div>
+</footer>
+
+<script src="script.js" defer></script>
+</body>
+</html>

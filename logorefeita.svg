@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <!-- Fundo -->
+  <rect width="100%" height="100%" fill="#EAE5DC" />
+
+  <!-- Grupo Principal -->
+  <g stroke="#7C222B" stroke-linecap="round" stroke-linejoin="round">
+    
+    <!-- Efeito de Círculo de Carregamento com falhas -->
+    <!-- Anel Principal -->
+    <circle cx="250" cy="255" r="190" fill="none" stroke-width="4" stroke-dasharray="280 40 100 60 300 40 120 60" stroke-dashoffset="30" />
+    
+    <!-- Anel Interno (Detalhe fino) -->
+    <circle cx="250" cy="255" r="175" fill="none" stroke-width="2" stroke-dasharray="0 80 150 200 80 300" stroke-dashoffset="0" />
+    
+    <!-- Anel Externo (Detalhe fino) -->
+    <circle cx="250" cy="255" r="205" fill="none" stroke-width="2" stroke-dasharray="0 300 120 200 60 200" stroke-dashoffset="150" />
+
+    <!-- Letra A (Linhas Principais) -->
+    <g stroke-width="6">
+      <!-- Perna Esquerda -->
+      <line x1="150" y1="380" x2="250" y2="110" />
+      <!-- Perna Direita -->
+      <line x1="250" y1="110" x2="350" y2="380" />
+      <!-- Traço Transversal (Inclinado para baixo) -->
+      <line x1="200" y1="245" x2="300" y2="315" />
+    </g>
+
+    <!-- Pontos de Conexão (Círculos nas extremidades e interseções) -->
+    <g fill="#7C222B" stroke="none">
+      <!-- Topo -->
+      <circle cx="250" cy="110" r="8" />
+      <!-- Base Esquerda -->
+      <circle cx="150" cy="380" r="8" />
+      <!-- Base Direita -->
+      <circle cx="350" cy="380" r="8" />
+      <!-- Início do traço transversal (na perna esquerda) -->
+      <circle cx="200" cy="245" r="8" />
+      <!-- Fim do traço transversal -->
+      <circle cx="300" cy="315" r="8" />
+    </g>
+    
+  </g>
+</svg>
